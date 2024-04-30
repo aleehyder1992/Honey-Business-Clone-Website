@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <link rel="icon" href="assets/logo.jpg" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Pure Natural Honey</title>
+  </head>
+  <body>
+    <section class="mini-navbar">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+            <p class="text-dark bg-warning p-2">
+              Free delivery all over Lahore, Pakistan. For orders and details,
+              please contact us at:
+              <span>
+                <a href="#">+92 331 7009888. </a>
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Main Navbar-->
+
+    <section class="main-header sticky-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="assets/logo.jpg"
+                alt="Logo"
+                width="130px"
+                class="align-text-top header-image"
+              />
+            </a>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12 mt-3">
+            <nav class="navbar navbar-expand-lg">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon navbar-light"></span>
+              </button>
+              <div
+                class="collapse navbar-collapse main-navbar header-nav justify-content-end"
+                id="navbarNav"
+              >
+                <ul class="navbar-nav text-white">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="about-us.html"
+                      >ABOUT US</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="shop.html">SHOP</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle fw-bold"
+                      href=""
+                      type="button"
+                      id="dropdownMenuButton"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                      aria-haspopup="true"
+                    >
+                      BLOG
+                    </a>
+                    <ul
+                      class="dropdown-menu"
+                      aria-labelledby="dropdownMenuButton"
+                    >
+                      <li>
+                        <a class="dropdown-item fw-bold" href="blog.html"
+                          >Blog</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item fw-lighter"
+                          href="beri-honey.html"
+                          >Berry Honey</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item fw-lighter" href="barseem.html"
+                          >Barseem Honey</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item fw-lighter" href="kikar.html"
+                          >Kikar Honey</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="contact-us.html"
+                      >CONTACT US</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12"></div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="d-flex header-3">
+              <div class="off-canvas-1">
+                <button
+                  id="login"
+                  class="btn text-white fw-bold"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight"
+                  aria-controls="offcanvasRight"
+                >
+                  LOGIN/REGISTER
+                </button>
+
+                <div
+                  class="offcanvas offcanvas-end"
+                  tabindex="-1"
+                  id="offcanvasRight"
+                  aria-labelledby="offcanvasRightLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                      SIGN IN
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <hr class="wd-100" />
+                    <form class="">
+                      <label class="pt-2 pb-2 pe-2" for="inputEmail4"
+                        >Username or Email Address</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="inputEmail4"
+                      />
+                    </form>
+                    <form class="">
+                      <label class="pt-2 pb-2 pe-2" for="inputEmail4"
+                        >Password</label
+                      >
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="inputEmail4"
+                      />
+                    </form>
+                    <br />
+                    <div class="text-center">
+                      <button
+                        class="btn btn-warning rounded-pill canvas-btn text-white text-center"
+                      >
+                        Log In
+                      </button>
+                    </div>
+
+                    <div class="d-flex mt-2">
+                      <div class="form-check me-5">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          value=""
+                          id="flexCheckDefault"
+                        />
+                        <label class="form-check-label" for="flexCheckDefault">
+                          Remember Me
+                        </label>
+                      </div>
+                      <div>
+                        <a
+                          class="text-dark link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                          href="#"
+                        >
+                          Lost your Password?
+                        </a>
+                      </div>
+                    </div>
+                    <hr />
+                    <div class="text-center">
+                      <i class="bi bi-person canvas-icon-people"></i>
+
+                      <p class="text-dark">No account yet?</p>
+                      <a
+                        class="text-dark link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+                        href="#"
+                      >
+                        Create an account?
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="off-canvas-2">
+                <button
+                  id="login"
+                  class="btn text-white fw-bolder"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasBottom"
+                  aria-controls="offcanvasBottom"
+                >
+                  <i class="bi bi-search"></i>
+                </button>
+
+                <div
+                  class="offcanvas offcanvas-bottom"
+                  tabindex="2"
+                  id="offcanvasBottom"
+                  aria-labelledby="offcanvasBottomLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasBottomLabel">
+                      Search
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <form class="search-form">
+                      <input
+                        type="text"
+                        class="form-control"
+                        id=""
+                        placeholder="Search by Products"
+                      />
+                    </form>
+                    <br />
+                    <p class="text-muted text-center">
+                      Start typing the products you are looking for:
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="off-canvas-2">
+                <button
+                  id="login"
+                  class="btn text-white fw-bolder"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight2"
+                  aria-controls="offcanvasRight"
+                >
+                  <i class="bi bi-cart"></i>
+                </button>
+
+                <div
+                  class="offcanvas offcanvas-end"
+                  tabindex="-1"
+                  id="offcanvasRight2"
+                  aria-labelledby="offcanvasRightLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                      Shopping Cart
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body text-center">
+                    <i class="bi bi-cart-x canvas-icon-people"></i>
+                    <p class="text-dark">NO PRODUCTS IN THE CART</p>
+                    <button class="btn btn-warning canvas-btn-2">
+                      RETURN TO SHOP
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="off-canvas-2">
+                <button
+                  id="login"
+                  class="btn text-white fw-bolder"
+                  type="button"
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#offcanvasRight2"
+                  aria-controls="offcanvasRight"
+                >
+                  Rs.0.00
+                </button>
+
+                <div
+                  class="offcanvas offcanvas-end"
+                  tabindex="-1"
+                  id="offcanvasRight2"
+                  aria-labelledby="offcanvasRightLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                      Shopping Cart
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body text-center">
+                    <i class="bi bi-cart-x canvas-icon-people"></i>
+                    <p class="text-dark">NO PRODUCTS IN THE CART</p>
+                    <button class="btn btn-warning canvas-btn-2">
+                      RETURN TO SHOP
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---Banner-->
+    <section class="banner">
+      <div class="inner-banner">
+        <section class="main-breadcrumb text-left">
+          <div class="container inner-banner-2">
+            <h2 class="text-white fw-bolder">Pure Natural Honey</h2>
+            <div class="title_left col-md-8 col-sm-12">
+              <h3 class="mt-3 fw-bold">
+                <a class="fw-lighter" href="index.html">Home</a>
+                <span>
+                  <i class="bi bi-chevron-compact-right text-white"></i>
+                </span>
+                <a class="active" href="blog.html">Pure Natural Honey</a>
+              </h3>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <h5 class="text-dark p-5 text-center fw-bolder">
+      Pure Natural Honey Suppliers
+    </h5>
+
+    <div class="container">
+      <div class="row blog">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h5 class="text-dark text-left fw-bolder">Beri Honey</h5>
+          <p class="text-muted">
+            We are a leading producer of high-quality Beri honey and one of
+            Pakistan’s sidr beri honey Suppliers. For the past 1 year and a
+            half, we have been involved as the supplier of Pure Organic honey in
+            Pakistan.
+          </p>
+          <div class="text-center m-3">
+            <a href="#">
+              <button class="btn btn-warning text-white rounded-pill fw-bold">
+                BERI HONEY
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12"></div>
+        <div class="col-lg-6 col-md-6 col-sm-12"></div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h5 class="text-dark text-left fw-bolder">Berseem Honey</h5>
+          <p class="text-muted">
+            Maakhie offers pure honey in Lahore as well as all over Pakistan. We
+            supply Berseem Honey from our farms all across Pakistan. We keep a
+            close eye on both production and supply. Berseem Honey’s packaging
+            and storage system is ranked among the top Berseem honey suppliers
+            in Pakistan.
+          </p>
+          <div class="text-center m-3">
+            <a href="#">
+              <button class="btn btn-warning text-white rounded-pill fw-bold">
+                BARSEEM HONEY
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <h5 class="text-dark text-left fw-bolder">
+            Raw Kashmiri Kikar Honey
+          </h5>
+          <p class="text-muted">
+            Raw Kashmiri Kikar Honey is harvested by the hilltops of Kashmir.
+            The majority of Kikar plants in India are found only situated on
+            those hills in Kashmir therefore the beehives are situated in the
+            hills for the harvest of Raw Kashmiri Kikar Honey. The best honey in
+            Pakistan produced by the Maakhie comes from Raw Kashmiri Kikar
+            Flowers Honey. Our apiary is also located in Kashmir to cultivate
+            honey.
+          </p>
+          <div class="text-center m-3">
+            <a href="#">
+              <button class="btn btn-warning text-white rounded-pill fw-bold">
+                KEKAR HONEY
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12"></div>
+      </div>
+    </div>
+
+    <section class="footer">
+      <div class="container-fluid">
+        <div class="row p-5">
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <img src="assets/logo.jpg" width="50%" />
+            <p class="text-left text-white">
+              The only company that delivers you the highest quality product
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <h3 class="text-white fw-bolder">Contact Us</h3>
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <span clas="social">
+                <i class="me-2 bi bi-telephone-fill text-white"></i>
+                <a href="#">+92 3317009888</a>
+              </span>
+              <br />
+              <hr />
+              <span>
+                <i class="me-3 bi bi-envelope text-white"></i>
+                <a href="#">maakhieofficial@gmail.com</a>
+              </span>
+              <br />
+              <hr />
+              <h3 class="text-white fw-bolder mb-4">Follow Us</h3>
+
+              <div class="social">
+                <a href="www.facebook.com">
+                  <i class="bi bi-facebook fb text-white m-2"></i
+                ></a>
+                <a href="www.instagram.com">
+                  <i class="bi bi-instagram insta text-white m-2"></i>
+                </a>
+                <a href="www.youtube.com">
+                  <i class="bi bi-youtube yt fb text-white m-2"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <h3 class="text-white fw-bolder">Useful Links</h3>
+            <div class="footer-links">
+              <a href="index.html" class="active fw-bold text-white">Home</a>
+              <li><a href="about-us.html">About Us</a></li>
+              <li><a href="shop.html">Shop</a></li>
+              <li>
+                <a href="blog.html"
+                  >Blog
+                  <span>
+                    <ul>
+                      <li><a href="beri-honey.html">Beri Honey</a></li>
+                      <li><a href="barseem.html">Barsem Honey</a></li>
+                      <li><a href="kikar.html">Kikar Honey</a></li>
+                    </ul>
+                  </span>
+                </a>
+              </li>
+              <li><a href="contact-us.html">Contact Us</a></li>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <h3 class="text-white fw-bolder">Recent Posts</h3>
+            <br />
+            <div class="d-flex">
+              <div class="me-3">
+                <a href="#">
+                  <img src="assets/post-1.jpg" />
+                </a>
+              </div>
+              <div class="">
+                <h6 class="text-white fw-bolder">Testing post 3</h6>
+                <p class="text-muted">November 10, 2022</p>
+              </div>
+            </div>
+            <hr class="text-white" />
+            <div class="d-flex">
+              <div class="me-3">
+                <a href="#">
+                  <img src="assets/post-2.jpg" />
+                </a>
+              </div>
+              <div class="">
+                <h6 class="text-white fw-bolder">Testing post 2</h6>
+                <p class="text-muted">November 10, 2022</p>
+              </div>
+            </div>
+            <hr class="text-white" />
+            <div class="d-flex">
+              <div class="me-3">
+                <a href="#">
+                  <img src="assets/post-3.jpg" />
+                </a>
+              </div>
+              <div class="">
+                <h6 class="text-white fw-bolder">Sale 11/11 On Maakhie</h6>
+                <p class="text-muted">November 10, 2022</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="text-white wd-50" />
+      <p class="text-center text-white">
+        Copyright © 2022 Maakhie Company. All rights reserved
+      </p>
+    </section>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
